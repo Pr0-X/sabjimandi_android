@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="WELCOME TO ONLINE SABJI MANDI"
+              android:gravity="center"
+              android:textStyle="bold"
+              android:textSize="28dp"
+              android:layout_marginTop="1.1in"
+              android:textColor="#008000"/>
+
+    <ProgressBar android:layout_width="match_parent" android:layout_height="wrap_content"
+                 android:id="@+id/progress_circular"
+                 style="@android:style/Widget.Holo.ProgressBar.Large"
+                 android:layout_marginTop="15px"
+    android:progress="25"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" android:id="@+id/textView" android:text="@string/powderedBy"
+            android:textAlignment="center" android:gravity="center_horizontal"
+    android:layout_marginTop="2.2in"
+    android:background="@color/lightgreen"/>
+</LinearLayout>
